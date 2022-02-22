@@ -1,0 +1,36 @@
+ =======================================================
+|	Apuntes Paradigmas de Programacion	        |
+|		Instructivo de VIM		        |
+ =======================================================
+
+vi lab 1
+
+----------------------------------------------------------
+[R] <- REPLACE (Es para sobrescribir)
+[esc] <- Para salir del modo escritura
+[i] <- INSERT (escribir insertando)
+[x] <- Borrar
+[dd] <- Borrar renglon completo
+----------------------------------------------------------
+:1 <- Ir a la linea 1
+:$ <- Ir a la última linea
+:w <- Grabar/Guardar
+:wq <- Grabar y salir
+:q! <- Salir asi nomas
+----------------------------------------------------------
+
+ ===========================================================
+|	                Compañeros 			    |
+ ===========================================================
+      INSTRUCCIONES: [ESC] + ENTER + /  + Escribir NOMBRE
+
+Luis
+Bosco
+Pablo
+Alex
+Edwin
+Paola
+Javier
+Fernando
+Alejandra
+Luis
