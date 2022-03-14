@@ -6,7 +6,7 @@
 #   Negativos con funcion inversa                   #
 #===================================================#
 
-def calcular_e_negativo(num):
+def e(num):
     n = 200
     x = num
     flag = False
@@ -26,4 +26,4 @@ def calcular_e_negativo(num):
 
     return s
 
-print(calcular_e_negativo(-100.0))
+print(e(e(e(-1))))
