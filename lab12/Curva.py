@@ -120,7 +120,7 @@ class Curva:
             xi.append(zp1 * s.x[ip1] + z * s.x[i] + zp2 * s.x[ip2] + zm1 * s.x[im1])
 
             for j in range(1, s.dim):
-		xi.append(zp1 * s.x[ip1 + j * s.n] + z * s.x[i + j * s.n] + zp2 * s.x[ip2 + j * s.n] + zm1 * s.x[im1 + j * s.n])
+                xi.append(zp1 * s.x[ip1 + j * s.n] + z * s.x[i + j * s.n] + zp2 * s.x[ip2 + j * s.n] + zm1 * s.x[im1 + j * s.n])
 
         # INTERPOLACON QUÍNTICA C2
         elif p == 2:
@@ -137,13 +137,13 @@ class Curva:
                ip2 = 0
                ip3 = 1
 
-           if i == s.n - 3
+           if i == s.n - 3:
                ip3 = 0
 
            im1: int = i - 1
            im2: int = 1 - 2
 
-           if == 0:
+           if i == 0:
                im1 = s.n - 1
                im2 = s.n - 2
            if i == 1:
@@ -161,15 +161,11 @@ class Curva:
            zp3: float = 18.0 + u12 * ap3 * (-459.0 + ap3 * (382.5 + ap3 * (-156.5 + ap3 * (31.5 - 2.5 * ap3))))
            zm1: float = -4.0 + u12 * am1 * (225.0 + am1 * (-367.5 + am1 * (272.5 + am1 * (-94.5 + 12.5 * am1))))
            zm2: float = 18.0 + u12 * am2 * (-459.0 + am2 * (382.5 + am2 * (-156.5 + am2 * (31.5 - 2.5 * am2))))
-
+           xi.append(zp1 * s.x[ip1]+ z * s.x[i] + zp2 * s.x[ip2] + zp3 * s.x[ip3] + zm1 * s.x[im1] + zm2 * s.x[im2])
            for j in range(1, s.dim):
-	   	xi.append(zp1 * s.x[ip1 + j * s.n] + z * s.x[i + j * s.n] + zp2 * s.x[ip2 + j * s.n] + zp3 * s.x[ip3 + j * s.n] + zm1 * s.x[im1 + j * s.n] + zm2 * s.x[im2 + j * s.n])
+               xi.append(zp1 * s.x[ip1 + j * s.n] + z * s.x[i + j * s.n] + zp2 * s.x[ip2 + j * s.n] + zp3 * s.x[ip3 + j * s.n] + zm1 * s.x[im1 + j * s.n] + zm2 * s.x[im2 + j * s.n])
 
         else:
             print("La suavidad debe ser 0, 1 o 2")
 
         return xi
-
-        
-        
-        

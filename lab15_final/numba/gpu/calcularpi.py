@@ -1,3 +1,6 @@
+#=========================================#
+#   DESCONOZCO SI CORRE, NO TENGO GPU :c  #
+#=========================================#
 from __future__ import print_function, absolute_import
 from numba import cuda
 from numba.cuda.random import create_xoroshiro128p_states

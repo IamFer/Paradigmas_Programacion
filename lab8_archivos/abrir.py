@@ -1,6 +1,9 @@
 #===========================================#
 #       Abrir un Archivo de Texto           #
 #===========================================#
+# EN ESTE PROGRAMA LO QUE SE BUSCA ES ABRIR #
+# UN ARCHIVO EXISTENTE Y LEERLO             #
+#===========================================#
 print("====================")
 print("¡Bienvenido Usuario!")
 print("====================")
