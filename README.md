@@ -1,7 +1,7 @@
 # Paradigmas de Programación
 ### :bulb: Contenido del Curso
-En este repositorio encontraran las diferentes actividades que se fueron realizando a lo largo del curso, impartido por Julián Sagredo.
-En esta sección encontraran los diferentes temas y programas que se fueron realizando en el transcurso del semestre. 
+En este repositorio encontraran las diferentes actividades que se fueron realizando a lo largo del curso impartido por Julián Sagredo.
+En esta sección encontraran el indice de las carpetas contenidas en este repositorio y sobre el tema que trato cada laboratorio. 
 
 En cada laboratorio se fue realizando diferentes programas para cada tema visto en el curso.
 
